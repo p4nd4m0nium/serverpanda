@@ -1,85 +1,45 @@
-[13Sep2025 01:41:00.579] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[13Sep2025 01:41:00.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1
-[13Sep2025 01:41:00.582] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.8 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[13Sep2025 01:41:00.654] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/serverpanda/servidor_minecraft/config/fml.toml is not correct. Correcting
-[13Sep2025 01:41:00.655] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[13Sep2025 01:41:00.656] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[13Sep2025 01:41:00.656] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[13Sep2025 01:41:00.657] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[13Sep2025 01:41:00.670] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[13Sep2025 01:41:00.785] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/serverpanda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[13Sep2025 01:41:00.988] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13Sep2025 01:41:01.847] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[13Sep2025 01:41:07.162] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 58.0.0, for MC 1.21.8 with MCP 20250717.105350
-[13Sep2025 01:41:07.164] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v58.0.0 Initialized
-[13Sep2025 01:41:07.170] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[13Sep2025 01:41:07.440] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/serverpanda/servidor_minecraft/config/forge-common.toml is not correct. Correcting
-[13Sep2025 01:41:07.441] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
-[13Sep2025 01:41:07.442] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, OFF. 
-[13Sep2025 01:41:07.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Sep2025 01:41:08.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 58.0.0 Target: 58.1.0
-[13Sep2025 01:41:08.705] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13Sep2025 01:41:09.432] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
-[13Sep2025 01:41:10.161] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
-[13Sep2025 01:41:10.177] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
-[13Sep2025 01:41:10.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.8
-[13Sep2025 01:41:10.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Sep2025 01:41:10.331] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Sep2025 01:41:10.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Sep2025 01:41:10.460] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Sep2025 01:41:10.511] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Sep2025 01:41:10.617] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Sep2025 01:41:10.617] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Sep2025 01:41:10.618] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Sep2025 01:41:10.618] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Sep2025 01:41:10.643] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[13Sep2025 01:41:10.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
-[13Sep2025 01:41:10.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[13Sep2025 01:41:10.648] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[13Sep2025 01:41:10.648] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[13Sep2025 01:41:10.649] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[13Sep2025 01:41:10.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[13Sep2025 01:41:10.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Sep2025 01:41:15.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Sep2025 01:41:15.812] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13Sep2025 01:41:16.637] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13Sep2025 01:41:16.770] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13Sep2025 01:41:17.287] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13Sep2025 01:41:17.779] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13Sep2025 01:41:18.280] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[13Sep2025 01:41:18.775] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[13Sep2025 01:41:19.296] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[13Sep2025 01:41:19.772] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[13Sep2025 01:41:20.231] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4462 ms
-[13Sep2025 01:41:20.232] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.599s)! For help, type "help"
-[13Sep2025 01:41:20.260] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Sep2025 01:42:20.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[13Sep2025 01:43:44.218] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CASATALARICO[/127.204.247.96:57511] logged in with entity id 29 at (0.5, 64.0, 5.5)
-[13Sep2025 01:43:44.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO joined the game
-[13Sep2025 01:46:25.566] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CASATALARICO lost connection: You logged in from another location
-[13Sep2025 01:46:25.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO left the game
-[13Sep2025 01:46:26.132] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CASATALARICO[/127.123.160.18:32955] logged in with entity id 959 at (-1.6770181665605386, 65.0, 2.297613281656913)
-[13Sep2025 01:46:26.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO joined the game
-[13Sep2025 01:47:03.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CASATALARICO lost connection: Disconnected
-[13Sep2025 01:47:03.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO left the game
-[13Sep2025 01:48:03.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[13Sep2025 01:53:39.559] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CASATALARICO[/127.123.160.18:59597] logged in with entity id 1354 at (-52.734924964908046, 79.0, -11.271625455585067)
-[13Sep2025 01:53:39.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO joined the game
-[13Sep2025 01:56:30.411] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: P4nd4m0nium[/127.204.247.96:59109] logged in with entity id 2144 at (-2.5, 64.0, 8.5)
-[13Sep2025 01:56:30.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium joined the game
-[13Sep2025 01:58:12.465] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: P4nd4m0nium lost connection: Disconnected
-[13Sep2025 01:58:12.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium left the game
-[13Sep2025 02:00:43.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Sweet Dreams]
-[13Sep2025 02:02:53.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Stone Age]
-[13Sep2025 02:03:18.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Getting an Upgrade]
-[13Sep2025 02:06:35.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: P4nd4m0nium[/127.204.247.96:34529] logged in with entity id 4583 at (-112.74946692306908, 68.0, 25.634681324085278)
-[13Sep2025 02:06:35.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium joined the game
-[13Sep2025 02:10:00.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium has made the advancement [Stone Age]
-[13Sep2025 02:11:14.467] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: P4nd4m0nium lost connection: Disconnected
-[13Sep2025 02:11:14.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium left the game
-[13Sep2025 02:12:33.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Acquire Hardware]
-[13Sep2025 02:13:07.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Monster Hunter]
-[13Sep2025 02:14:16.744] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: P4nd4m0nium[/127.204.247.96:49635] logged in with entity id 6390 at (-332.76688378290237, 69.0, 47.5882850805945)
-[13Sep2025 02:14:16.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium joined the game
-[13Sep2025 02:16:38.120] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: P4nd4m0nium lost connection: Disconnected
-[13Sep2025 02:16:38.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium left the game
+[13Sep2025 02:49:40.380] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[13Sep2025 02:49:40.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1
+[13Sep2025 02:49:40.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.8 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[13Sep2025 02:49:40.492] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[13Sep2025 02:49:40.633] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/serverpanda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[13Sep2025 02:49:40.866] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13Sep2025 02:49:41.892] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[13Sep2025 02:49:49.300] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 58.0.0, for MC 1.21.8 with MCP 20250717.105350
+[13Sep2025 02:49:49.302] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v58.0.0 Initialized
+[13Sep2025 02:49:49.319] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[13Sep2025 02:49:50.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Sep2025 02:49:50.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 58.0.0 Target: 58.1.0
+[13Sep2025 02:49:50.878] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13Sep2025 02:49:53.747] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[13Sep2025 02:49:53.765] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[13Sep2025 02:49:53.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.8
+[13Sep2025 02:49:53.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Sep2025 02:49:53.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Sep2025 02:49:53.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Sep2025 02:49:54.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Sep2025 02:49:54.063] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Sep2025 02:49:54.126] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Sep2025 02:49:54.127] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Sep2025 02:49:54.127] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Sep2025 02:49:54.131] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Sep2025 02:49:54.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Sep2025 02:49:54.411] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.123.160.18:45283] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[13Sep2025 02:49:54.544] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.123.160.18:36891] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[13Sep2025 02:49:54.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Sep2025 02:49:54.699] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.123.160.18:53163] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[13Sep2025 02:49:54.846] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.123.160.18:49111] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[13Sep2025 02:49:58.056] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.060] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.062] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.064] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.066] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.067] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.067] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.119] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 02:49:58.197] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.123.160.18:44381] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
+[13Sep2025 02:49:58.278] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3661 ms
+[13Sep2025 02:49:58.279] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.134s)! For help, type "help"
+[13Sep2025 02:49:58.336] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Sep2025 02:50:04.407] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CASATALARICO[/127.123.160.18:39487] logged in with entity id 20 at (-327.93160231036336, 66.49520087700593, 142.35854771704876)
+[13Sep2025 02:50:04.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO joined the game
