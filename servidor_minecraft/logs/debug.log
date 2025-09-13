@@ -747,3 +747,82 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [13Sep2025 01:48:03.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
 [13Sep2025 01:48:03.317] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [13Sep2025 01:48:03.336] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Sep2025 01:53:38.994] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[13Sep2025 01:53:38.994] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[13Sep2025 01:53:38.994] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[13Sep2025 01:53:38.994] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[13Sep2025 01:53:38.994] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@6da664e6 into net.minecraft.network.Connection@24d23561
+[13Sep2025 01:53:39.559] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CASATALARICO[/127.123.160.18:59597] logged in with entity id 1354 at (-52.734924964908046, 79.0, -11.271625455585067)
+[13Sep2025 01:53:39.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO joined the game
+[13Sep2025 01:56:03.244] [Worker-Main-6/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/entity/trialspawner/TrialSpawner
+[13Sep2025 01:56:03.249] [Worker-Main-6/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/block/entity/trialspawner/TrialSpawner.spawnMob
+[13Sep2025 01:56:28.281] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with modlist [forge, minecraft, tlskincape]
+[13Sep2025 01:56:28.340] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with channels [forge:channel_registration, forge:handshake, forge:login]
+[13Sep2025 01:56:28.341] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Version test of 'PRESENT 0' from client : ACCEPTED
+[13Sep2025 01:56:28.341] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Version test of 'PRESENT 0' from client : ACCEPTED
+[13Sep2025 01:56:28.341] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Version test of 'PRESENT 0' from client : ACCEPTED
+[13Sep2025 01:56:28.341] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[13Sep2025 01:56:28.410] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 0 from client
+[13Sep2025 01:56:28.473] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 1 from client
+[13Sep2025 01:56:28.528] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 2 from client
+[13Sep2025 01:56:28.653] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 3 from client
+[13Sep2025 01:56:28.709] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 4 from client
+[13Sep2025 01:56:28.764] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 5 from client
+[13Sep2025 01:56:28.829] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 6 from client
+[13Sep2025 01:56:28.884] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 7 from client
+[13Sep2025 01:56:28.939] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 8 from client
+[13Sep2025 01:56:28.994] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 9 from client
+[13Sep2025 01:56:29.049] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 10 from client
+[13Sep2025 01:56:29.104] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 11 from client
+[13Sep2025 01:56:29.166] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 12 from client
+[13Sep2025 01:56:29.221] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 13 from client
+[13Sep2025 01:56:29.276] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 14 from client
+[13Sep2025 01:56:29.331] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 15 from client
+[13Sep2025 01:56:29.386] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 16 from client
+[13Sep2025 01:56:29.442] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 17 from client
+[13Sep2025 01:56:29.496] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 18 from client
+[13Sep2025 01:56:29.947] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
+[13Sep2025 01:56:30.411] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: P4nd4m0nium[/127.204.247.96:59109] logged in with entity id 2144 at (-2.5, 64.0, 8.5)
+[13Sep2025 01:56:30.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium joined the game
+[13Sep2025 01:58:12.465] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: P4nd4m0nium lost connection: Disconnected
+[13Sep2025 01:58:12.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium left the game
+[13Sep2025 01:58:39.553] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Sep2025 01:58:39.561] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Sep2025 02:00:43.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Sweet Dreams]
+[13Sep2025 02:02:53.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Stone Age]
+[13Sep2025 02:03:18.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Getting an Upgrade]
+[13Sep2025 02:03:39.539] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Sep2025 02:03:39.544] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Sep2025 02:06:33.325] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with modlist [forge, minecraft, tlskincape]
+[13Sep2025 02:06:33.381] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with channels [forge:channel_registration, forge:handshake, forge:login]
+[13Sep2025 02:06:33.381] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Version test of 'PRESENT 0' from client : ACCEPTED
+[13Sep2025 02:06:33.382] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Version test of 'PRESENT 0' from client : ACCEPTED
+[13Sep2025 02:06:33.382] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Version test of 'PRESENT 0' from client : ACCEPTED
+[13Sep2025 02:06:33.382] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[13Sep2025 02:06:33.438] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 0 from client
+[13Sep2025 02:06:33.496] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 1 from client
+[13Sep2025 02:06:33.548] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 2 from client
+[13Sep2025 02:06:33.662] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 3 from client
+[13Sep2025 02:06:33.714] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 4 from client
+[13Sep2025 02:06:33.766] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 5 from client
+[13Sep2025 02:06:33.824] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 6 from client
+[13Sep2025 02:06:33.875] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 7 from client
+[13Sep2025 02:06:33.928] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 8 from client
+[13Sep2025 02:06:33.983] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 9 from client
+[13Sep2025 02:06:34.034] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 10 from client
+[13Sep2025 02:06:34.098] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 11 from client
+[13Sep2025 02:06:34.155] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 12 from client
+[13Sep2025 02:06:34.209] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 13 from client
+[13Sep2025 02:06:34.261] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 14 from client
+[13Sep2025 02:06:34.312] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 15 from client
+[13Sep2025 02:06:34.364] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 16 from client
+[13Sep2025 02:06:34.415] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 17 from client
+[13Sep2025 02:06:34.467] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 18 from client
+[13Sep2025 02:06:34.933] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
+[13Sep2025 02:06:35.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: P4nd4m0nium[/127.204.247.96:34529] logged in with entity id 4583 at (-112.74946692306908, 68.0, 25.634681324085278)
+[13Sep2025 02:06:35.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium joined the game
+[13Sep2025 02:08:39.547] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Sep2025 02:08:39.551] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Sep2025 02:10:00.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium has made the advancement [Stone Age]
+[13Sep2025 02:11:14.467] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: P4nd4m0nium lost connection: Disconnected
+[13Sep2025 02:11:14.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium left the game

@@ -63,3 +63,17 @@
 [13Sep2025 01:47:03.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CASATALARICO lost connection: Disconnected
 [13Sep2025 01:47:03.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO left the game
 [13Sep2025 01:48:03.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[13Sep2025 01:53:39.559] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CASATALARICO[/127.123.160.18:59597] logged in with entity id 1354 at (-52.734924964908046, 79.0, -11.271625455585067)
+[13Sep2025 01:53:39.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO joined the game
+[13Sep2025 01:56:30.411] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: P4nd4m0nium[/127.204.247.96:59109] logged in with entity id 2144 at (-2.5, 64.0, 8.5)
+[13Sep2025 01:56:30.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium joined the game
+[13Sep2025 01:58:12.465] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: P4nd4m0nium lost connection: Disconnected
+[13Sep2025 01:58:12.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium left the game
+[13Sep2025 02:00:43.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Sweet Dreams]
+[13Sep2025 02:02:53.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Stone Age]
+[13Sep2025 02:03:18.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CASATALARICO has made the advancement [Getting an Upgrade]
+[13Sep2025 02:06:35.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: P4nd4m0nium[/127.204.247.96:34529] logged in with entity id 4583 at (-112.74946692306908, 68.0, 25.634681324085278)
+[13Sep2025 02:06:35.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium joined the game
+[13Sep2025 02:10:00.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium has made the advancement [Stone Age]
+[13Sep2025 02:11:14.467] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: P4nd4m0nium lost connection: Disconnected
+[13Sep2025 02:11:14.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: P4nd4m0nium left the game
