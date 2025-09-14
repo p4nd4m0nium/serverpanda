@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:smoking_upgrade|true", "sophisticatedbackpacks:filter_upgrade|true", "sophisticatedbackpacks:magnet_upgrade|true", "sophisticatedbackpacks:advanced_magnet_upgrade|true", "sophisticatedbackpacks:blasting_upgrade|true", "sophisticatedbackpacks:deposit_upgrade|true", "sophisticatedbackpacks:iron_backpack|true", "sophisticatedbackpacks:auto_smoking_upgrade|true", "sophisticatedbackpacks:chipped/loom_table_upgrade|true", "sophisticatedbackpacks:stack_downgrade_tier_2|true", "sophisticatedbackpacks:stack_downgrade_tier_1|true", "sophisticatedbackpacks:stack_downgrade_tier_3|true"]
+

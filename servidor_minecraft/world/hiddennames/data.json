@@ -1,0 +1,56 @@
+[
+  {
+    "uuid": "385fc03e-a044-3607-8e22-5cc1363a7c7e",
+    "displayName": {
+      "insertion": "DobleTonkaa",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell DobleTonkaa "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "385fc03e-a044-3607-8e22-5cc1363a7c7e",
+          "name": {
+            "text": "DobleTonkaa"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "DobleTonkaa"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "null"
+  },
+  {
+    "uuid": "2b0c6db8-3765-39f2-a5e8-4183c598f747",
+    "displayName": {
+      "insertion": "PandaTrabuco",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell PandaTrabuco "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "2b0c6db8-3765-39f2-a5e8-4183c598f747",
+          "name": {
+            "text": "PandaTrabuco"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "PandaTrabuco"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "null"
+  }
+]
